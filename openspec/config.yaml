@@ -1,0 +1,25 @@
+schema: spec-driven
+
+context: |
+  DietSense — A Conversational Domain AI Agent for Daily Calorie Intake Analysis
+  Domain: Nutrition AI / Health Informatics
+  Core: AI Agent + Nutrition Domain Knowledge + Food Data Analytics + Real-World Health Application
+  Language: Traditional Chinese (繁體中文) with English academic writing
+  Target Users: Taiwanese users tracking daily dietary intake
+  Key Databases: USDA FoodData Central, Taiwan Food Composition Database, Custom Taiwanese Cuisine Vector DB
+  Architecture: Eight-module Agent pipeline (Input → Processing → Planner → Retrieval → Analytics → Domain → Decision → Output)
+  Safety: Eating disorder detection, caloric floor (< 1200 kcal) guardrails, professional referral triggers
+
+rules:
+  proposal:
+    - Follow IEEE Transaction on Systems journal style
+    - Use A-to-F abstract structure (Attention → But → Cure → Development → Experiments → Findings)
+    - All expected outcomes must be labeled as Expected, not reported results
+    - Include citations with DOI or URL where available
+  design:
+    - Map to eight-module architecture (①–⑧)
+    - Include Mifflin-St Jeor formula and uncertainty quantification
+    - Safety guardrails must be explicit in every design artifact
+  tasks:
+    - Break into weekly milestones (W1–W8)
+    - Each task should reference the module it implements
