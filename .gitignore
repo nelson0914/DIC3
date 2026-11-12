@@ -1,0 +1,11 @@
+# Binaries & original presentation assets (documented via text extractions in myplan/)
+*.pdf
+*.png
+*.pptx
+*.docx
+
+# Agent runtime & local configurations
+.agents/
+node_modules/
+.DS_Store
+Thumbs.db
