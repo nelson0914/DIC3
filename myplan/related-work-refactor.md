@@ -144,3 +144,4 @@ DietSense's architectural decisions are directly shaped by three unresolved deba
 - **Position B (Personalized Precision Nutrition):** Zeevi et al. (Cell, 2015) [31] demonstrated that identical meals provoke up to 10-fold differences in postprandial glycemic response across individuals due to microbiome and metabolic differences.
 - **Scientific Consensus:** Universal guidelines serve as a **non-negotiable safety baseline**, while personalized adaptation (BMR, activity level, dietary preferences, schedule) optimizes **efficacy and long-term adherence**.
 - **Impact on DietSense Design:** DietSense implements a **two-tier architecture**: Tier 1 enforces universal clinical safety guardrails (minimum caloric floors, AMDR boundaries), while Tier 2 personalizes targets via Mifflin-St Jeor TDEE formulas, user activity coefficients, and historical behavior modeling.
+

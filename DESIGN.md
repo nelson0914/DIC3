@@ -298,3 +298,4 @@ dic3/
 
 1. **Self-Report Inherent Bias:** Natural language logging remains bounded by user transparency; omission of consumed snacks cannot be detected without continuous physiological sensing.
 2. **Medical Disclaimer:** DietSense is a behavioral weight management decision-support system, **not a medical device**. It explicitly disclaims diagnostic authority and enforces mandatory clinical referral triggers for high-risk populations (eating disorder history, pregnancy, severe chronic renal/cardiovascular diseases).
+
